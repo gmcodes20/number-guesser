@@ -9,7 +9,7 @@ GAME FUNCTIONS:
 
 //  Game value
 
-let min = 1, max = 10, winningNum = getWinningNumber(min, max), guessesLeft = 3;
+let min = 5, max = 50, winningNum = getWinningNumber(min, max), guessesLeft = 4;
 
 // UI Elements
 const game = document.querySelector('#game'),
